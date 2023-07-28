@@ -87,30 +87,3 @@ function playAgain() {
       }
     });
   }
-
-// while (start === "y") {
-//     //computer random number
-//     let computer = Math.floor(Math.random() * 6) + 1;
-
-//     //user random number
-//     let user = Math.floor(Math.random() * 6) + 1;
-//     prompt(`Computer rolls ${computer}. You roll ${user} `)
-//     //who wins
-//     //let result
-//     //let scores = {"wins": 0, "loses": 0, "draws": 0};
-//     if (computer === user) {
-//         result = "It's a draw."
-//         scoresdraws++;
-//     } else if (computer < user) {
-//         result = "You win!"
-//         scoreswins++;
-//     } else if (computer > user) {
-//         result = "Computer wins!"
-//         scoresloses++;
-//     }
-//     console.log('Current scores user wins ' + scoreswins + 'user loses ' + scoresloses + 'draws ' + scoresdraws);
-// }
-
-// let scoreswins = 0;
-// let scoresloses = 0;
-// let scoresdraws = 0;
